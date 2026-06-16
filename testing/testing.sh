@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv 'DUMMY.DATABASE_DUMMY.DB_HOST'
+printenv 'DUMMY_GROUP.DATABASE_DUMMY.DB_HOST'
