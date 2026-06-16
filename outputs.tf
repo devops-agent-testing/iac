@@ -1,0 +1,14 @@
+output "bucket_name" {
+  description = "Name of the created S3 bucket"
+  value       = aws_s3_bucket.this.id
+}
+
+output "bucket_arn" {
+  description = "ARN of the created S3 bucket"
+  value       = aws_s3_bucket.this.arn
+}
+
+output "region" {
+  description = "AWS region where the bucket was created"
+  value       = var.region
+}
